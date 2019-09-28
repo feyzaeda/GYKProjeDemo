@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         edtKullaniciMail = findViewById(R.id.editTextKullaniciMail);
         edtPassword = findViewById(R.id.editTextPassword);
         btnGirisYap = findViewById(R.id.buttonGirisYap);
-        btnKayitOl = findViewById(R.id.buttonKayitOl);
+        btnKayitOl = findViewById(R.id.buttonRegisterKayitOl);
 
         btnKayitOl.setOnClickListener(new View.OnClickListener() {
             @Override
