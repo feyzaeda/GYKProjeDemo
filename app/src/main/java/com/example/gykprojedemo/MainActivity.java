@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // sevgi ortim burası sende navigation draver activity eklemen lazım. burda neler olucağını (sınav, eğitim, vs şeklinde) karar veririz.
+                Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                startActivity(intent);
             }
         });
 
